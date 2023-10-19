@@ -17,13 +17,14 @@ public class Snack1 {
         double number = Double.parseDouble(userImput.nextLine());
 
         // iniziamo a scansionare i numeri, in modo da richiedere all'infinito in caso di numero pari, e terminare con negativo
-        while (number % 2 == 0){
+        do {
             System.out.print("gimme another number, maybe this time will end... ");
             number = Double.parseDouble(userImput.nextLine());
             if (number % 2 == 1){
                 number++;
             }
         }
+        while (number % 2 == 0);
 
         System.out.println("YOU'VE DONE IT, THE LOOP IS CLOSED");
 
