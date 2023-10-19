@@ -16,9 +16,13 @@ public class Snack1 {
         System.out.println("Gimme a number:");
         double number = Double.parseDouble(userImput.nextLine());
 
+        if (number % 2 == 1){
+            number++;
+        }
+
         // iniziamo a scansionare i numeri, in modo da richiedere all'infinito in caso di numero pari, e terminare con negativo
         do {
-            System.out.print("gimme another number, maybe this time will end... ");
+            System.out.println("You typed: " + number + " try another one ");
             number = Double.parseDouble(userImput.nextLine());
             if (number % 2 == 1){
                 number++;
