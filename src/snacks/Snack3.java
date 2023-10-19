@@ -3,9 +3,8 @@ package snacks;
 public class Snack3 {
     /*
     text exe:
-        Generatore di “nomi cognomi” casuali: il Grande Gatsby ha una lista di nomi e una lista di cognomi, e da queste vuole mostrare a video una falsa lista di invitati con nome e cognome.
+        Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari
      */
     public static void main(String[] args) {
-
     }
 }
