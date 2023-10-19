@@ -30,16 +30,6 @@ public class Snack4 {
             System.out.println("they are not palyndrome");
         }
 
-        /*
-        char[] invertedChars = new char[word.length()];
-        for (int i = word.length() - 1, j = 0; i >= 0 && j < word.length(); i--, j++) {
-            //invertedChars[word.length() - i - 1] = word.charAt(i);
-            invertedChars[j] = word.charAt(i);
-        }
-        String invertedString = String.valueOf(invertedChars);
-
-         */
-
         // chiudiamo lo scanner
         userInput.close();
 
