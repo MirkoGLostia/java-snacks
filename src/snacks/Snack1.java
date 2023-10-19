@@ -2,7 +2,7 @@ package snacks;
 
 import java.util.Scanner;
 
-public class snack1 {
+public class Snack1 {
     /*
     text exe:
         Continua a chiedere all’utente di inserire un numero, se è pari stampa il numero, se è dispari stampa il numero successivo.

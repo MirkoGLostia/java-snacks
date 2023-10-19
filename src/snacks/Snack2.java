@@ -1,11 +1,12 @@
 package snacks;
 
-public class snack2 {
+public class Snack2 {
     /*
     text exe:
         Generatore di “nomi cognomi” casuali: il Grande Gatsby ha una lista di nomi e una lista di cognomi, e da queste vuole mostrare a video una falsa lista di invitati con nome e cognome.
      */
     public static void main(String[] args) {
-
+        // array nomi e cognomi
+        String[] nomiInvitaiti
     }
 }
