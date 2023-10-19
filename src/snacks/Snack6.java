@@ -22,16 +22,16 @@ public class Snack6 {
             if (i == 0){
                 // conversione ore
                 int hours = userSeconds / 3600;
-                orarioUserConvertito += hours + "-";
+                orarioUserConvertito += String.format("%02d", hours) + ":";
                 userSeconds = userSeconds-(hours*3600);
             } else if (i == 1) {
                 // conversione minuti
                 int minutes = userSeconds / 60;
-                orarioUserConvertito += minutes + "-";
+                orarioUserConvertito += String.format("%02d", minutes) + ":";
                 userSeconds = userSeconds-(minutes*60);
             }else {
                 // aggiunta minuti
-                orarioUserConvertito += userSeconds;
+                orarioUserConvertito += String.format("%02d", userSeconds);
             }
         }
 
